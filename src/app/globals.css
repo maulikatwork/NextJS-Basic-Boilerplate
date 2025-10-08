@@ -3,13 +3,13 @@
 /* Theme Configuration */
 @theme {
   /* Brand Colors */
-  --color-primary: #163e8c;
-  --color-primary-90: #163e8ce5;
-  --color-primary-75: #163e8cbf;
-  --color-primary-50: #163e8c80;
-  --color-primary-25: #163e8c40;
-  --color-primary-10: #163e8c1a;
-  --color-primary-5: #163e8c0d;
+  --color-primary: #d3af37;
+  --color-primary-90: #d3af37e5;
+  --color-primary-75: #d3af37bf;
+  --color-primary-50: #d3af3780;
+  --color-primary-25: #d3af3740;
+  --color-primary-10: #d3af371a;
+  --color-primary-5: #d3af370d;
 
   --color-secondary: #1e1e1e;
   --color-secondary-90: #1e1e1ee5;
@@ -27,21 +27,21 @@
   --color-neutral-10: #f4f4f41a;
   --color-neutral-5: #f4f4f40d;
 
-  --color-text-dark: #1e1e1e;
-  --color-text-dark-90: #1e1e1ee5;
-  --color-text-dark-75: #1e1e1ebf;
-  --color-text-dark-50: #1e1e1e80;
-  --color-text-dark-25: #1e1e1e40;
-  --color-text-dark-10: #1e1e1e1a;
-  --color-text-dark-5: #1e1e1e0d;
+  --color-text-dark: oklch(27.8% 0.033 256.848);
+  --color-text-dark-90: oklch(27.8% 0.033 256.848 / 0.9);
+  --color-text-dark-75: oklch(27.8% 0.033 256.848 / 0.75);
+  --color-text-dark-50: oklch(27.8% 0.033 256.848 / 0.5);
+  --color-text-dark-25: oklch(27.8% 0.033 256.848 / 0.25);
+  --color-text-dark-10: oklch(27.8% 0.033 256.848 / 0.1);
+  --color-text-dark-5: oklch(27.8% 0.033 256.848 / 0.05);
 
-  --color-text-light: #f4f4f4;
-  --color-text-light-90: #f4f4f4e5;
-  --color-text-light-75: #f4f4f4bf;
-  --color-text-light-50: #f4f4f480;
-  --color-text-light-25: #f4f4f440;
-  --color-text-light-10: #f4f4f41a;
-  --color-text-light-5: #f4f4f40d;
+  --color-text-light: #ffffff;
+  --color-text-light-90: #ffffffe5;
+  --color-text-light-75: #ffffffbf;
+  --color-text-light-50: #ffffff80;
+  --color-text-light-25: #ffffff40;
+  --color-text-light-10: #ffffff1a;
+  --color-text-light-5: #ffffff0d;
 
   --color-warning: #f3b002;
   --color-warning-90: #f3b002e5;
